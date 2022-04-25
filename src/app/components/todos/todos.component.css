@@ -1,0 +1,71 @@
+.delete {
+   margin: 10px;
+   padding: 5px;
+
+}
+
+.todo {
+   text-align: center;
+   display: flex;
+   margin: 0 auto;
+   padding: 10px, 15px;
+   background-color: #fff;
+   border-bottom: 1px solid #ddd;
+}
+
+.todo:nth-child(even) {
+   background-color: #eee;
+}
+
+.todo:last-of-type {
+   border-bottom: 0;
+}
+
+.todo .id {
+   padding-top: 10px;
+   margin-left: 10px;
+   flex: 5 1 50px;
+   justify-content: center;
+}
+
+.todo .content {
+   padding-top: 10px;
+   margin: 0 auto;
+   flex: 1 1 100%
+}
+
+.todo.done .content {
+   text-decoration: line-through;
+   color: palevioletred;
+}
+
+.todo-input {
+   display: block;
+   width: 100%;
+   padding: 10px 15px;
+   appearance: none;
+   border: none;
+   background-color: #f3f3f3;
+   margin-top: 15px;
+   font-size: 20px;
+   outline: none;
+
+}
+
+.todo-submit {
+   display: block;
+   width: 100%;
+   max-width: 200px;
+   appearance: none;
+   border: none;
+   outline: none;
+   background: none;
+
+   background-color: #FE4880;
+   color: #fff;
+   margin: 15px auto;
+
+   padding: 10px 15px;
+   font-size: 18px;
+   font-weight: 700;
+}
